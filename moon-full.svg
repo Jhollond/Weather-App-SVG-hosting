@@ -1,0 +1,1370 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="500" width="500" viewBox="0 0 500 500">
+  <defs>
+    <filter id="H" color-interpolation-filters="sRGB">
+      <feColorMatrix type="luminanceToAlpha" result="colormatrix1"/>
+      <feFlood flood-opacity="1" flood-color="#FFF" result="flood1"/>
+      <feComposite in2="colormatrix1" operator="out" result="composite1"/>
+      <feFlood flood-opacity="1" flood-color="#000" result="flood2"/>
+      <feComposite in2="colormatrix1" result="composite2" operator="in"/>
+      <feComposite in="composite2" in2="composite1" k2="1" k3="1" operator="arithmetic" result="composite3"/>
+      <feColorMatrix in="composite3" values="2 -1 0 0 0 0 2 -1 0 0 -1 0 2 0 0 0 0 0 1 0" result="colormatrix2"/>
+      <feComposite in="colormatrix2" in2="composite3" operator="arithmetic" k2="2" result="composite4"/>
+      <feBlend in="composite4" in2="composite3" result="blend"/>
+      <feComposite in2="SourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="color1" in="fbSourceGraphic"/>
+      <feColorMatrix values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 1.24 0" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix values="1 0 0 0.0885417 -0 0 1 0 0.0885417 -0 0 0 1 0.0885417 -0 0 0 0 1 0" in="fbSourceGraphic"/>
+    </filter>
+    <filter id="G" color-interpolation-filters="sRGB">
+      <feColorMatrix type="luminanceToAlpha" result="colormatrix1"/>
+      <feFlood flood-opacity="1" flood-color="#FFF" result="flood1"/>
+      <feComposite in2="colormatrix1" operator="out" result="composite1"/>
+      <feFlood flood-opacity="1" flood-color="#000" result="flood2"/>
+      <feComposite in2="colormatrix1" result="composite2" operator="in"/>
+      <feComposite in="composite2" in2="composite1" k2="1" k3="1" operator="arithmetic" result="composite3"/>
+      <feColorMatrix in="composite3" values="2 -1 0 0 0 0 2 -1 0 0 -1 0 2 0 0 0 0 0 1 0" result="colormatrix2"/>
+      <feComposite in="colormatrix2" in2="composite3" operator="arithmetic" k2="2" result="composite4"/>
+      <feBlend in="composite4" in2="composite3" result="blend"/>
+      <feComposite in2="SourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="color1" in="fbSourceGraphic"/>
+      <feColorMatrix values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 1.24 0" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix values="1 0 0 0.0885417 -0 0 1 0 0.0885417 -0 0 0 1 0.0885417 -0 0 0 0 1 0" in="fbSourceGraphic"/>
+    </filter>
+    <filter id="F" color-interpolation-filters="sRGB">
+      <feColorMatrix type="luminanceToAlpha" result="colormatrix1"/>
+      <feFlood flood-opacity="1" flood-color="#FFF" result="flood1"/>
+      <feComposite in2="colormatrix1" operator="out" result="composite1"/>
+      <feFlood flood-opacity="1" flood-color="#000" result="flood2"/>
+      <feComposite in2="colormatrix1" result="composite2" operator="in"/>
+      <feComposite in="composite2" in2="composite1" k2="1" k3="1" operator="arithmetic" result="composite3"/>
+      <feColorMatrix in="composite3" values="2 -1 0 0 0 0 2 -1 0 0 -1 0 2 0 0 0 0 0 1 0" result="colormatrix2"/>
+      <feComposite in="colormatrix2" in2="composite3" operator="arithmetic" k2="2" result="composite4"/>
+      <feBlend in="composite4" in2="composite3" result="blend"/>
+      <feComposite in2="SourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="color1" in="fbSourceGraphic"/>
+      <feColorMatrix values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 1.24 0" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix values="1 0 0 0.0885417 -0 0 1 0 0.0885417 -0 0 0 1 0.0885417 -0 0 0 0 1 0" in="fbSourceGraphic"/>
+    </filter>
+    <filter id="E" color-interpolation-filters="sRGB">
+      <feColorMatrix type="luminanceToAlpha" result="colormatrix1"/>
+      <feFlood flood-opacity="1" flood-color="#FFF" result="flood1"/>
+      <feComposite in2="colormatrix1" operator="out" result="composite1"/>
+      <feFlood flood-opacity="1" flood-color="#000" result="flood2"/>
+      <feComposite in2="colormatrix1" result="composite2" operator="in"/>
+      <feComposite in="composite2" in2="composite1" k2="1" k3="1" operator="arithmetic" result="composite3"/>
+      <feColorMatrix in="composite3" values="2 -1 0 0 0 0 2 -1 0 0 -1 0 2 0 0 0 0 0 1 0" result="colormatrix2"/>
+      <feComposite in="colormatrix2" in2="composite3" operator="arithmetic" k2="2" result="composite4"/>
+      <feBlend in="composite4" in2="composite3" result="blend"/>
+      <feComposite in2="SourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="color1" in="fbSourceGraphic"/>
+      <feColorMatrix values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 1.24 0" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix values="1 0 0 0.0885417 -0 0 1 0 0.0885417 -0 0 0 1 0.0885417 -0 0 0 0 1 0" in="fbSourceGraphic"/>
+    </filter>
+    <filter id="D" color-interpolation-filters="sRGB">
+      <feColorMatrix type="luminanceToAlpha" result="colormatrix1"/>
+      <feFlood flood-opacity="1" flood-color="#FFF" result="flood1"/>
+      <feComposite in2="colormatrix1" operator="out" result="composite1"/>
+      <feFlood flood-opacity="1" flood-color="#000" result="flood2"/>
+      <feComposite in2="colormatrix1" result="composite2" operator="in"/>
+      <feComposite in="composite2" in2="composite1" k2="1" k3="1" operator="arithmetic" result="composite3"/>
+      <feColorMatrix in="composite3" values="2 -1 0 0 0 0 2 -1 0 0 -1 0 2 0 0 0 0 0 1 0" result="colormatrix2"/>
+      <feComposite in="colormatrix2" in2="composite3" operator="arithmetic" k2="2" result="composite4"/>
+      <feBlend in="composite4" in2="composite3" result="blend"/>
+      <feComposite in2="SourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="color1" in="fbSourceGraphic"/>
+      <feColorMatrix values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 1.24 0" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix values="1 0 0 0.0885417 -0 0 1 0 0.0885417 -0 0 0 1 0.0885417 -0 0 0 0 1 0" in="fbSourceGraphic"/>
+    </filter>
+    <filter id="C" color-interpolation-filters="sRGB">
+      <feColorMatrix type="luminanceToAlpha" result="colormatrix1"/>
+      <feFlood flood-opacity="1" flood-color="#FFF" result="flood1"/>
+      <feComposite in2="colormatrix1" operator="out" result="composite1"/>
+      <feFlood flood-opacity="1" flood-color="#000" result="flood2"/>
+      <feComposite in2="colormatrix1" result="composite2" operator="in"/>
+      <feComposite in="composite2" in2="composite1" k2="1" k3="1" operator="arithmetic" result="composite3"/>
+      <feColorMatrix in="composite3" values="2 -1 0 0 0 0 2 -1 0 0 -1 0 2 0 0 0 0 0 1 0" result="colormatrix2"/>
+      <feComposite in="colormatrix2" in2="composite3" operator="arithmetic" k2="2" result="composite4"/>
+      <feBlend in="composite4" in2="composite3" result="blend"/>
+      <feComposite in2="SourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="color1" in="fbSourceGraphic"/>
+      <feColorMatrix values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 1.24 0" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix values="1 0 0 0.0885417 -0 0 1 0 0.0885417 -0 0 0 1 0.0885417 -0 0 0 0 1 0" in="fbSourceGraphic"/>
+    </filter>
+    <filter id="B" color-interpolation-filters="sRGB">
+      <feColorMatrix type="luminanceToAlpha" result="colormatrix1"/>
+      <feFlood flood-opacity="1" flood-color="#FFF" result="flood1"/>
+      <feComposite in2="colormatrix1" operator="out" result="composite1"/>
+      <feFlood flood-opacity="1" flood-color="#000" result="flood2"/>
+      <feComposite in2="colormatrix1" result="composite2" operator="in"/>
+      <feComposite in="composite2" in2="composite1" k2="1" k3="1" operator="arithmetic" result="composite3"/>
+      <feColorMatrix in="composite3" values="2 -1 0 0 0 0 2 -1 0 0 -1 0 2 0 0 0 0 0 1 0" result="colormatrix2"/>
+      <feComposite in="colormatrix2" in2="composite3" operator="arithmetic" k2="2" result="composite4"/>
+      <feBlend in="composite4" in2="composite3" result="blend"/>
+      <feComposite in2="SourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="color1" in="fbSourceGraphic"/>
+      <feColorMatrix values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 1.24 0" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix values="1 0 0 0.0885417 -0 0 1 0 0.0885417 -0 0 0 1 0.0885417 -0 0 0 0 1 0" in="fbSourceGraphic"/>
+    </filter>
+    <filter id="A" color-interpolation-filters="sRGB">
+      <feColorMatrix type="luminanceToAlpha" result="colormatrix1"/>
+      <feFlood flood-opacity="1" flood-color="#FFF" result="flood1"/>
+      <feComposite in2="colormatrix1" operator="out" result="composite1"/>
+      <feFlood flood-opacity="1" flood-color="#000" result="flood2"/>
+      <feComposite in2="colormatrix1" result="composite2" operator="in"/>
+      <feComposite in="composite2" in2="composite1" k2="1" k3="1" operator="arithmetic" result="composite3"/>
+      <feColorMatrix in="composite3" values="2 -1 0 0 0 0 2 -1 0 0 -1 0 2 0 0 0 0 0 1 0" result="colormatrix2"/>
+      <feComposite in="colormatrix2" in2="composite3" operator="arithmetic" k2="2" result="composite4"/>
+      <feBlend in="composite4" in2="composite3" result="blend"/>
+      <feComposite in2="SourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="color1" in="fbSourceGraphic"/>
+      <feColorMatrix values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 1.24 0" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix values="1 0 0 0.0885417 -0 0 1 0 0.0885417 -0 0 0 1 0.0885417 -0 0 0 0 1 0" in="fbSourceGraphic"/>
+    </filter>
+    <filter id="z" color-interpolation-filters="sRGB">
+      <feColorMatrix type="luminanceToAlpha" result="colormatrix1"/>
+      <feFlood flood-opacity="1" flood-color="#FFF" result="flood1"/>
+      <feComposite in2="colormatrix1" operator="out" result="composite1"/>
+      <feFlood flood-opacity="1" flood-color="#000" result="flood2"/>
+      <feComposite in2="colormatrix1" result="composite2" operator="in"/>
+      <feComposite in="composite2" in2="composite1" k2="1" k3="1" operator="arithmetic" result="composite3"/>
+      <feColorMatrix in="composite3" values="2 -1 0 0 0 0 2 -1 0 0 -1 0 2 0 0 0 0 0 1 0" result="colormatrix2"/>
+      <feComposite in="colormatrix2" in2="composite3" operator="arithmetic" k2="2" result="composite4"/>
+      <feBlend in="composite4" in2="composite3" result="blend"/>
+      <feComposite in2="SourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="color1" in="fbSourceGraphic"/>
+      <feColorMatrix values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 1.24 0" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix values="1 0 0 0.0885417 -0 0 1 0 0.0885417 -0 0 0 1 0.0885417 -0 0 0 0 1 0" in="fbSourceGraphic"/>
+    </filter>
+    <filter id="y" color-interpolation-filters="sRGB">
+      <feColorMatrix type="luminanceToAlpha" result="colormatrix1"/>
+      <feFlood flood-opacity="1" flood-color="#FFF" result="flood1"/>
+      <feComposite in2="colormatrix1" operator="out" result="composite1"/>
+      <feFlood flood-opacity="1" flood-color="#000" result="flood2"/>
+      <feComposite in2="colormatrix1" result="composite2" operator="in"/>
+      <feComposite in="composite2" in2="composite1" k2="1" k3="1" operator="arithmetic" result="composite3"/>
+      <feColorMatrix in="composite3" values="2 -1 0 0 0 0 2 -1 0 0 -1 0 2 0 0 0 0 0 1 0" result="colormatrix2"/>
+      <feComposite in="colormatrix2" in2="composite3" operator="arithmetic" k2="2" result="composite4"/>
+      <feBlend in="composite4" in2="composite3" result="blend"/>
+      <feComposite in2="SourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="color1" in="fbSourceGraphic"/>
+      <feColorMatrix values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 1.24 0" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix values="1 0 0 0.0885417 -0 0 1 0 0.0885417 -0 0 0 1 0.0885417 -0 0 0 0 1 0" in="fbSourceGraphic"/>
+    </filter>
+    <filter id="x" color-interpolation-filters="sRGB">
+      <feColorMatrix type="luminanceToAlpha" result="colormatrix1"/>
+      <feFlood flood-opacity="1" flood-color="#FFF" result="flood1"/>
+      <feComposite in2="colormatrix1" operator="out" result="composite1"/>
+      <feFlood flood-opacity="1" flood-color="#000" result="flood2"/>
+      <feComposite in2="colormatrix1" result="composite2" operator="in"/>
+      <feComposite in="composite2" in2="composite1" k2="1" k3="1" operator="arithmetic" result="composite3"/>
+      <feColorMatrix in="composite3" values="2 -1 0 0 0 0 2 -1 0 0 -1 0 2 0 0 0 0 0 1 0" result="colormatrix2"/>
+      <feComposite in="colormatrix2" in2="composite3" operator="arithmetic" k2="2" result="composite4"/>
+      <feBlend in="composite4" in2="composite3" result="blend"/>
+      <feComposite in2="SourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="color1" in="fbSourceGraphic"/>
+      <feColorMatrix values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 1.24 0" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix values="1 0 0 0.0885417 -0 0 1 0 0.0885417 -0 0 0 1 0.0885417 -0 0 0 0 1 0" in="fbSourceGraphic"/>
+    </filter>
+    <filter id="w" color-interpolation-filters="sRGB">
+      <feColorMatrix type="luminanceToAlpha" result="colormatrix1"/>
+      <feFlood flood-opacity="1" flood-color="#FFF" result="flood1"/>
+      <feComposite in2="colormatrix1" operator="out" result="composite1"/>
+      <feFlood flood-opacity="1" flood-color="#000" result="flood2"/>
+      <feComposite in2="colormatrix1" result="composite2" operator="in"/>
+      <feComposite in="composite2" in2="composite1" k2="1" k3="1" operator="arithmetic" result="composite3"/>
+      <feColorMatrix in="composite3" values="2 -1 0 0 0 0 2 -1 0 0 -1 0 2 0 0 0 0 0 1 0" result="colormatrix2"/>
+      <feComposite in="colormatrix2" in2="composite3" operator="arithmetic" k2="2" result="composite4"/>
+      <feBlend in="composite4" in2="composite3" result="blend"/>
+      <feComposite in2="SourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="color1" in="fbSourceGraphic"/>
+      <feColorMatrix values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 1.24 0" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix values="1 0 0 0.0885417 -0 0 1 0 0.0885417 -0 0 0 1 0.0885417 -0 0 0 0 1 0" in="fbSourceGraphic"/>
+    </filter>
+    <filter id="v" color-interpolation-filters="sRGB">
+      <feColorMatrix type="luminanceToAlpha" result="colormatrix1"/>
+      <feFlood flood-opacity="1" flood-color="#FFF" result="flood1"/>
+      <feComposite in2="colormatrix1" operator="out" result="composite1"/>
+      <feFlood flood-opacity="1" flood-color="#000" result="flood2"/>
+      <feComposite in2="colormatrix1" result="composite2" operator="in"/>
+      <feComposite in="composite2" in2="composite1" k2="1" k3="1" operator="arithmetic" result="composite3"/>
+      <feColorMatrix in="composite3" values="2 -1 0 0 0 0 2 -1 0 0 -1 0 2 0 0 0 0 0 1 0" result="colormatrix2"/>
+      <feComposite in="colormatrix2" in2="composite3" operator="arithmetic" k2="2" result="composite4"/>
+      <feBlend in="composite4" in2="composite3" result="blend"/>
+      <feComposite in2="SourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="color1" in="fbSourceGraphic"/>
+      <feColorMatrix values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 1.24 0" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix values="1 0 0 0.0885417 -0 0 1 0 0.0885417 -0 0 0 1 0.0885417 -0 0 0 0 1 0" in="fbSourceGraphic"/>
+    </filter>
+    <filter id="u" color-interpolation-filters="sRGB">
+      <feColorMatrix type="luminanceToAlpha" result="colormatrix1"/>
+      <feFlood flood-opacity="1" flood-color="#FFF" result="flood1"/>
+      <feComposite in2="colormatrix1" operator="out" result="composite1"/>
+      <feFlood flood-opacity="1" flood-color="#000" result="flood2"/>
+      <feComposite in2="colormatrix1" result="composite2" operator="in"/>
+      <feComposite in="composite2" in2="composite1" k2="1" k3="1" operator="arithmetic" result="composite3"/>
+      <feColorMatrix in="composite3" values="2 -1 0 0 0 0 2 -1 0 0 -1 0 2 0 0 0 0 0 1 0" result="colormatrix2"/>
+      <feComposite in="colormatrix2" in2="composite3" operator="arithmetic" k2="2" result="composite4"/>
+      <feBlend in="composite4" in2="composite3" result="blend"/>
+      <feComposite in2="SourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="color1" in="fbSourceGraphic"/>
+      <feColorMatrix values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 1.24 0" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix values="1 0 0 0.0885417 -0 0 1 0 0.0885417 -0 0 0 1 0.0885417 -0 0 0 0 1 0" in="fbSourceGraphic"/>
+    </filter>
+    <filter id="t" color-interpolation-filters="sRGB">
+      <feColorMatrix type="luminanceToAlpha" result="colormatrix1"/>
+      <feFlood flood-opacity="1" flood-color="#FFF" result="flood1"/>
+      <feComposite in2="colormatrix1" operator="out" result="composite1"/>
+      <feFlood flood-opacity="1" flood-color="#000" result="flood2"/>
+      <feComposite in2="colormatrix1" result="composite2" operator="in"/>
+      <feComposite in="composite2" in2="composite1" k2="1" k3="1" operator="arithmetic" result="composite3"/>
+      <feColorMatrix in="composite3" values="2 -1 0 0 0 0 2 -1 0 0 -1 0 2 0 0 0 0 0 1 0" result="colormatrix2"/>
+      <feComposite in="colormatrix2" in2="composite3" operator="arithmetic" k2="2" result="composite4"/>
+      <feBlend in="composite4" in2="composite3" result="blend"/>
+      <feComposite in2="SourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="color1" in="fbSourceGraphic"/>
+      <feColorMatrix values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 1.24 0" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix values="1 0 0 0.0885417 -0 0 1 0 0.0885417 -0 0 0 1 0.0885417 -0 0 0 0 1 0" in="fbSourceGraphic"/>
+    </filter>
+    <filter id="s" color-interpolation-filters="sRGB">
+      <feColorMatrix type="luminanceToAlpha" result="colormatrix1"/>
+      <feFlood flood-opacity="1" flood-color="#FFF" result="flood1"/>
+      <feComposite in2="colormatrix1" operator="out" result="composite1"/>
+      <feFlood flood-opacity="1" flood-color="#000" result="flood2"/>
+      <feComposite in2="colormatrix1" result="composite2" operator="in"/>
+      <feComposite in="composite2" in2="composite1" k2="1" k3="1" operator="arithmetic" result="composite3"/>
+      <feColorMatrix in="composite3" values="2 -1 0 0 0 0 2 -1 0 0 -1 0 2 0 0 0 0 0 1 0" result="colormatrix2"/>
+      <feComposite in="colormatrix2" in2="composite3" operator="arithmetic" k2="2" result="composite4"/>
+      <feBlend in="composite4" in2="composite3" result="blend"/>
+      <feComposite in2="SourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="color1" in="fbSourceGraphic"/>
+      <feColorMatrix values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 1.24 0" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix values="1 0 0 0.0885417 -0 0 1 0 0.0885417 -0 0 0 1 0.0885417 -0 0 0 0 1 0" in="fbSourceGraphic"/>
+    </filter>
+    <filter id="r" color-interpolation-filters="sRGB">
+      <feColorMatrix type="luminanceToAlpha" result="colormatrix1"/>
+      <feFlood flood-opacity="1" flood-color="#FFF" result="flood1"/>
+      <feComposite in2="colormatrix1" operator="out" result="composite1"/>
+      <feFlood flood-opacity="1" flood-color="#000" result="flood2"/>
+      <feComposite in2="colormatrix1" result="composite2" operator="in"/>
+      <feComposite in="composite2" in2="composite1" k2="1" k3="1" operator="arithmetic" result="composite3"/>
+      <feColorMatrix in="composite3" values="2 -1 0 0 0 0 2 -1 0 0 -1 0 2 0 0 0 0 0 1 0" result="colormatrix2"/>
+      <feComposite in="colormatrix2" in2="composite3" operator="arithmetic" k2="2" result="composite4"/>
+      <feBlend in="composite4" in2="composite3" result="blend"/>
+      <feComposite in2="SourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="color1" in="fbSourceGraphic"/>
+      <feColorMatrix values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 1.24 0" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix values="1 0 0 0.0885417 -0 0 1 0 0.0885417 -0 0 0 1 0.0885417 -0 0 0 0 1 0" in="fbSourceGraphic"/>
+    </filter>
+    <filter id="q" color-interpolation-filters="sRGB">
+      <feColorMatrix type="luminanceToAlpha" result="colormatrix1"/>
+      <feFlood flood-opacity="1" flood-color="#FFF" result="flood1"/>
+      <feComposite in2="colormatrix1" operator="out" result="composite1"/>
+      <feFlood flood-opacity="1" flood-color="#000" result="flood2"/>
+      <feComposite in2="colormatrix1" result="composite2" operator="in"/>
+      <feComposite in="composite2" in2="composite1" k2="1" k3="1" operator="arithmetic" result="composite3"/>
+      <feColorMatrix in="composite3" values="2 -1 0 0 0 0 2 -1 0 0 -1 0 2 0 0 0 0 0 1 0" result="colormatrix2"/>
+      <feComposite in="colormatrix2" in2="composite3" operator="arithmetic" k2="2" result="composite4"/>
+      <feBlend in="composite4" in2="composite3" result="blend"/>
+      <feComposite in2="SourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="color1" in="fbSourceGraphic"/>
+      <feColorMatrix values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 1.24 0" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix values="1 0 0 0.0885417 -0 0 1 0 0.0885417 -0 0 0 1 0.0885417 -0 0 0 0 1 0" in="fbSourceGraphic"/>
+    </filter>
+    <filter id="p" color-interpolation-filters="sRGB">
+      <feColorMatrix type="luminanceToAlpha" result="colormatrix1"/>
+      <feFlood flood-opacity="1" flood-color="#FFF" result="flood1"/>
+      <feComposite in2="colormatrix1" operator="out" result="composite1"/>
+      <feFlood flood-opacity="1" flood-color="#000" result="flood2"/>
+      <feComposite in2="colormatrix1" result="composite2" operator="in"/>
+      <feComposite in="composite2" in2="composite1" k2="1" k3="1" operator="arithmetic" result="composite3"/>
+      <feColorMatrix in="composite3" values="2 -1 0 0 0 0 2 -1 0 0 -1 0 2 0 0 0 0 0 1 0" result="colormatrix2"/>
+      <feComposite in="colormatrix2" in2="composite3" operator="arithmetic" k2="2" result="composite4"/>
+      <feBlend in="composite4" in2="composite3" result="blend"/>
+      <feComposite in2="SourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="color1" in="fbSourceGraphic"/>
+      <feColorMatrix values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 1.24 0" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix values="1 0 0 0.0885417 -0 0 1 0 0.0885417 -0 0 0 1 0.0885417 -0 0 0 0 1 0" in="fbSourceGraphic"/>
+    </filter>
+    <filter id="o" color-interpolation-filters="sRGB">
+      <feColorMatrix type="luminanceToAlpha" result="colormatrix1"/>
+      <feFlood flood-opacity="1" flood-color="#FFF" result="flood1"/>
+      <feComposite in2="colormatrix1" operator="out" result="composite1"/>
+      <feFlood flood-opacity="1" flood-color="#000" result="flood2"/>
+      <feComposite in2="colormatrix1" result="composite2" operator="in"/>
+      <feComposite in="composite2" in2="composite1" k2="1" k3="1" operator="arithmetic" result="composite3"/>
+      <feColorMatrix in="composite3" values="2 -1 0 0 0 0 2 -1 0 0 -1 0 2 0 0 0 0 0 1 0" result="colormatrix2"/>
+      <feComposite in="colormatrix2" in2="composite3" operator="arithmetic" k2="2" result="composite4"/>
+      <feBlend in="composite4" in2="composite3" result="blend"/>
+      <feComposite in2="SourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="color1" in="fbSourceGraphic"/>
+      <feColorMatrix values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 1.24 0" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix values="1 0 0 0.0885417 -0 0 1 0 0.0885417 -0 0 0 1 0.0885417 -0 0 0 0 1 0" in="fbSourceGraphic"/>
+    </filter>
+    <filter id="n" color-interpolation-filters="sRGB">
+      <feColorMatrix type="luminanceToAlpha" result="colormatrix1"/>
+      <feFlood flood-opacity="1" flood-color="#FFF" result="flood1"/>
+      <feComposite in2="colormatrix1" operator="out" result="composite1"/>
+      <feFlood flood-opacity="1" flood-color="#000" result="flood2"/>
+      <feComposite in2="colormatrix1" result="composite2" operator="in"/>
+      <feComposite in="composite2" in2="composite1" k2="1" k3="1" operator="arithmetic" result="composite3"/>
+      <feColorMatrix in="composite3" values="2 -1 0 0 0 0 2 -1 0 0 -1 0 2 0 0 0 0 0 1 0" result="colormatrix2"/>
+      <feComposite in="colormatrix2" in2="composite3" operator="arithmetic" k2="2" result="composite4"/>
+      <feBlend in="composite4" in2="composite3" result="blend"/>
+      <feComposite in2="SourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="color1" in="fbSourceGraphic"/>
+      <feColorMatrix values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 1.24 0" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix values="1 0 0 0.0885417 -0 0 1 0 0.0885417 -0 0 0 1 0.0885417 -0 0 0 0 1 0" in="fbSourceGraphic"/>
+    </filter>
+    <filter id="m" color-interpolation-filters="sRGB">
+      <feColorMatrix type="luminanceToAlpha" result="colormatrix1"/>
+      <feFlood flood-opacity="1" flood-color="#FFF" result="flood1"/>
+      <feComposite in2="colormatrix1" operator="out" result="composite1"/>
+      <feFlood flood-opacity="1" flood-color="#000" result="flood2"/>
+      <feComposite in2="colormatrix1" result="composite2" operator="in"/>
+      <feComposite in="composite2" in2="composite1" k2="1" k3="1" operator="arithmetic" result="composite3"/>
+      <feColorMatrix in="composite3" values="2 -1 0 0 0 0 2 -1 0 0 -1 0 2 0 0 0 0 0 1 0" result="colormatrix2"/>
+      <feComposite in="colormatrix2" in2="composite3" operator="arithmetic" k2="2" result="composite4"/>
+      <feBlend in="composite4" in2="composite3" result="blend"/>
+      <feComposite in2="SourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="color1" in="fbSourceGraphic"/>
+      <feColorMatrix values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 1.24 0" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix values="1 0 0 0.0885417 -0 0 1 0 0.0885417 -0 0 0 1 0.0885417 -0 0 0 0 1 0" in="fbSourceGraphic"/>
+    </filter>
+    <filter id="l" color-interpolation-filters="sRGB">
+      <feColorMatrix type="luminanceToAlpha" result="colormatrix1"/>
+      <feFlood flood-opacity="1" flood-color="#FFF" result="flood1"/>
+      <feComposite in2="colormatrix1" operator="out" result="composite1"/>
+      <feFlood flood-opacity="1" flood-color="#000" result="flood2"/>
+      <feComposite in2="colormatrix1" result="composite2" operator="in"/>
+      <feComposite in="composite2" in2="composite1" k2="1" k3="1" operator="arithmetic" result="composite3"/>
+      <feColorMatrix in="composite3" values="2 -1 0 0 0 0 2 -1 0 0 -1 0 2 0 0 0 0 0 1 0" result="colormatrix2"/>
+      <feComposite in="colormatrix2" in2="composite3" operator="arithmetic" k2="2" result="composite4"/>
+      <feBlend in="composite4" in2="composite3" result="blend"/>
+      <feComposite in2="SourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="color1" in="fbSourceGraphic"/>
+      <feColorMatrix values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 1.24 0" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix values="1 0 0 0.0885417 -0 0 1 0 0.0885417 -0 0 0 1 0.0885417 -0 0 0 0 1 0" in="fbSourceGraphic"/>
+    </filter>
+    <filter id="k" color-interpolation-filters="sRGB">
+      <feColorMatrix type="luminanceToAlpha" result="colormatrix1"/>
+      <feFlood flood-opacity="1" flood-color="#FFF" result="flood1"/>
+      <feComposite in2="colormatrix1" operator="out" result="composite1"/>
+      <feFlood flood-opacity="1" flood-color="#000" result="flood2"/>
+      <feComposite in2="colormatrix1" result="composite2" operator="in"/>
+      <feComposite in="composite2" in2="composite1" k2="1" k3="1" operator="arithmetic" result="composite3"/>
+      <feColorMatrix in="composite3" values="2 -1 0 0 0 0 2 -1 0 0 -1 0 2 0 0 0 0 0 1 0" result="colormatrix2"/>
+      <feComposite in="colormatrix2" in2="composite3" operator="arithmetic" k2="2" result="composite4"/>
+      <feBlend in="composite4" in2="composite3" result="blend"/>
+      <feComposite in2="SourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="color1" in="fbSourceGraphic"/>
+      <feColorMatrix values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 1.24 0" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix values="1 0 0 0.0885417 -0 0 1 0 0.0885417 -0 0 0 1 0.0885417 -0 0 0 0 1 0" in="fbSourceGraphic"/>
+    </filter>
+    <filter id="j" color-interpolation-filters="sRGB">
+      <feColorMatrix type="luminanceToAlpha" result="colormatrix1"/>
+      <feFlood flood-opacity="1" flood-color="#FFF" result="flood1"/>
+      <feComposite in2="colormatrix1" operator="out" result="composite1"/>
+      <feFlood flood-opacity="1" flood-color="#000" result="flood2"/>
+      <feComposite in2="colormatrix1" result="composite2" operator="in"/>
+      <feComposite in="composite2" in2="composite1" k2="1" k3="1" operator="arithmetic" result="composite3"/>
+      <feColorMatrix in="composite3" values="2 -1 0 0 0 0 2 -1 0 0 -1 0 2 0 0 0 0 0 1 0" result="colormatrix2"/>
+      <feComposite in="colormatrix2" in2="composite3" operator="arithmetic" k2="2" result="composite4"/>
+      <feBlend in="composite4" in2="composite3" result="blend"/>
+      <feComposite in2="SourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="color1" in="fbSourceGraphic"/>
+      <feColorMatrix values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 1.24 0" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix values="1 0 0 0.0885417 -0 0 1 0 0.0885417 -0 0 0 1 0.0885417 -0 0 0 0 1 0" in="fbSourceGraphic"/>
+    </filter>
+    <filter id="i" color-interpolation-filters="sRGB">
+      <feColorMatrix type="luminanceToAlpha" result="colormatrix1"/>
+      <feFlood flood-opacity="1" flood-color="#FFF" result="flood1"/>
+      <feComposite in2="colormatrix1" operator="out" result="composite1"/>
+      <feFlood flood-opacity="1" flood-color="#000" result="flood2"/>
+      <feComposite in2="colormatrix1" result="composite2" operator="in"/>
+      <feComposite in="composite2" in2="composite1" k2="1" k3="1" operator="arithmetic" result="composite3"/>
+      <feColorMatrix in="composite3" values="2 -1 0 0 0 0 2 -1 0 0 -1 0 2 0 0 0 0 0 1 0" result="colormatrix2"/>
+      <feComposite in="colormatrix2" in2="composite3" operator="arithmetic" k2="2" result="composite4"/>
+      <feBlend in="composite4" in2="composite3" result="blend"/>
+      <feComposite in2="SourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="color1" in="fbSourceGraphic"/>
+      <feColorMatrix values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 1.24 0" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix values="1 0 0 0.0885417 -0 0 1 0 0.0885417 -0 0 0 1 0.0885417 -0 0 0 0 1 0" in="fbSourceGraphic"/>
+    </filter>
+    <filter id="h" color-interpolation-filters="sRGB">
+      <feColorMatrix type="luminanceToAlpha" result="colormatrix1"/>
+      <feFlood flood-opacity="1" flood-color="#FFF" result="flood1"/>
+      <feComposite in2="colormatrix1" operator="out" result="composite1"/>
+      <feFlood flood-opacity="1" flood-color="#000" result="flood2"/>
+      <feComposite in2="colormatrix1" result="composite2" operator="in"/>
+      <feComposite in="composite2" in2="composite1" k2="1" k3="1" operator="arithmetic" result="composite3"/>
+      <feColorMatrix in="composite3" values="2 -1 0 0 0 0 2 -1 0 0 -1 0 2 0 0 0 0 0 1 0" result="colormatrix2"/>
+      <feComposite in="colormatrix2" in2="composite3" operator="arithmetic" k2="2" result="composite4"/>
+      <feBlend in="composite4" in2="composite3" result="blend"/>
+      <feComposite in2="SourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="color1" in="fbSourceGraphic"/>
+      <feColorMatrix values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 1.24 0" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix values="1 0 0 0.0885417 -0 0 1 0 0.0885417 -0 0 0 1 0.0885417 -0 0 0 0 1 0" in="fbSourceGraphic"/>
+    </filter>
+    <filter id="g" color-interpolation-filters="sRGB">
+      <feColorMatrix type="luminanceToAlpha" result="colormatrix1"/>
+      <feFlood flood-opacity="1" flood-color="#FFF" result="flood1"/>
+      <feComposite in2="colormatrix1" operator="out" result="composite1"/>
+      <feFlood flood-opacity="1" flood-color="#000" result="flood2"/>
+      <feComposite in2="colormatrix1" result="composite2" operator="in"/>
+      <feComposite in="composite2" in2="composite1" k2="1" k3="1" operator="arithmetic" result="composite3"/>
+      <feColorMatrix in="composite3" values="2 -1 0 0 0 0 2 -1 0 0 -1 0 2 0 0 0 0 0 1 0" result="colormatrix2"/>
+      <feComposite in="colormatrix2" in2="composite3" operator="arithmetic" k2="2" result="composite4"/>
+      <feBlend in="composite4" in2="composite3" result="blend"/>
+      <feComposite in2="SourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="color1" in="fbSourceGraphic"/>
+      <feColorMatrix values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 1.24 0" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix values="1 0 0 0.0885417 -0 0 1 0 0.0885417 -0 0 0 1 0.0885417 -0 0 0 0 1 0" in="fbSourceGraphic"/>
+    </filter>
+    <filter id="f" color-interpolation-filters="sRGB">
+      <feColorMatrix type="luminanceToAlpha" result="colormatrix1"/>
+      <feFlood flood-opacity="1" flood-color="#FFF" result="flood1"/>
+      <feComposite in2="colormatrix1" operator="out" result="composite1"/>
+      <feFlood flood-opacity="1" flood-color="#000" result="flood2"/>
+      <feComposite in2="colormatrix1" result="composite2" operator="in"/>
+      <feComposite in="composite2" in2="composite1" k2="1" k3="1" operator="arithmetic" result="composite3"/>
+      <feColorMatrix in="composite3" values="2 -1 0 0 0 0 2 -1 0 0 -1 0 2 0 0 0 0 0 1 0" result="colormatrix2"/>
+      <feComposite in="colormatrix2" in2="composite3" operator="arithmetic" k2="2" result="composite4"/>
+      <feBlend in="composite4" in2="composite3" result="blend"/>
+      <feComposite in2="SourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="color1" in="fbSourceGraphic"/>
+      <feColorMatrix values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 1.24 0" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix values="1 0 0 0.0885417 -0 0 1 0 0.0885417 -0 0 0 1 0.0885417 -0 0 0 0 1 0" in="fbSourceGraphic"/>
+    </filter>
+    <filter id="e" color-interpolation-filters="sRGB">
+      <feColorMatrix type="luminanceToAlpha" result="colormatrix1"/>
+      <feFlood flood-opacity="1" flood-color="#FFF" result="flood1"/>
+      <feComposite in2="colormatrix1" operator="out" result="composite1"/>
+      <feFlood flood-opacity="1" flood-color="#000" result="flood2"/>
+      <feComposite in2="colormatrix1" result="composite2" operator="in"/>
+      <feComposite in="composite2" in2="composite1" k2="1" k3="1" operator="arithmetic" result="composite3"/>
+      <feColorMatrix in="composite3" values="2 -1 0 0 0 0 2 -1 0 0 -1 0 2 0 0 0 0 0 1 0" result="colormatrix2"/>
+      <feComposite in="colormatrix2" in2="composite3" operator="arithmetic" k2="2" result="composite4"/>
+      <feBlend in="composite4" in2="composite3" result="blend"/>
+      <feComposite in2="SourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="color1" in="fbSourceGraphic"/>
+      <feColorMatrix values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 1.24 0" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix values="1 0 0 0.0885417 -0 0 1 0 0.0885417 -0 0 0 1 0.0885417 -0 0 0 0 1 0" in="fbSourceGraphic"/>
+    </filter>
+    <filter id="d" color-interpolation-filters="sRGB">
+      <feColorMatrix type="luminanceToAlpha" result="colormatrix1"/>
+      <feFlood flood-opacity="1" flood-color="#FFF" result="flood1"/>
+      <feComposite in2="colormatrix1" operator="out" result="composite1"/>
+      <feFlood flood-opacity="1" flood-color="#000" result="flood2"/>
+      <feComposite in2="colormatrix1" result="composite2" operator="in"/>
+      <feComposite in="composite2" in2="composite1" k2="1" k3="1" operator="arithmetic" result="composite3"/>
+      <feColorMatrix in="composite3" values="2 -1 0 0 0 0 2 -1 0 0 -1 0 2 0 0 0 0 0 1 0" result="colormatrix2"/>
+      <feComposite in="colormatrix2" in2="composite3" operator="arithmetic" k2="2" result="composite4"/>
+      <feBlend in="composite4" in2="composite3" result="blend"/>
+      <feComposite in2="SourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="color1" in="fbSourceGraphic"/>
+      <feColorMatrix values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 1.24 0" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix values="1 0 0 0.0885417 -0 0 1 0 0.0885417 -0 0 0 1 0.0885417 -0 0 0 0 1 0" in="fbSourceGraphic"/>
+    </filter>
+    <filter id="c" color-interpolation-filters="sRGB">
+      <feColorMatrix type="luminanceToAlpha" result="colormatrix1"/>
+      <feFlood flood-opacity="1" flood-color="#FFF" result="flood1"/>
+      <feComposite in2="colormatrix1" operator="out" result="composite1"/>
+      <feFlood flood-opacity="1" flood-color="#000" result="flood2"/>
+      <feComposite in2="colormatrix1" result="composite2" operator="in"/>
+      <feComposite in="composite2" in2="composite1" k2="1" k3="1" operator="arithmetic" result="composite3"/>
+      <feColorMatrix in="composite3" values="2 -1 0 0 0 0 2 -1 0 0 -1 0 2 0 0 0 0 0 1 0" result="colormatrix2"/>
+      <feComposite in="colormatrix2" in2="composite3" operator="arithmetic" k2="2" result="composite4"/>
+      <feBlend in="composite4" in2="composite3" result="blend"/>
+      <feComposite in2="SourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="color1" in="fbSourceGraphic"/>
+      <feColorMatrix values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 1.24 0" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix values="1 0 0 0.0885417 -0 0 1 0 0.0885417 -0 0 0 1 0.0885417 -0 0 0 0 1 0" in="fbSourceGraphic"/>
+    </filter>
+    <filter id="b" color-interpolation-filters="sRGB">
+      <feColorMatrix type="luminanceToAlpha" result="colormatrix1"/>
+      <feFlood flood-opacity="1" flood-color="#FFF" result="flood1"/>
+      <feComposite in2="colormatrix1" operator="out" result="composite1"/>
+      <feFlood flood-opacity="1" flood-color="#000" result="flood2"/>
+      <feComposite in2="colormatrix1" result="composite2" operator="in"/>
+      <feComposite in="composite2" in2="composite1" k2="1" k3="1" operator="arithmetic" result="composite3"/>
+      <feColorMatrix in="composite3" values="2 -1 0 0 0 0 2 -1 0 0 -1 0 2 0 0 0 0 0 1 0" result="colormatrix2"/>
+      <feComposite in="colormatrix2" in2="composite3" operator="arithmetic" k2="2" result="composite4"/>
+      <feBlend in="composite4" in2="composite3" result="blend"/>
+      <feComposite in2="SourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="color1" in="fbSourceGraphic"/>
+      <feColorMatrix values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 1.24 0" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix values="1 0 0 0.0885417 -0 0 1 0 0.0885417 -0 0 0 1 0.0885417 -0 0 0 0 1 0" in="fbSourceGraphic"/>
+    </filter>
+    <filter id="a" color-interpolation-filters="sRGB">
+      <feColorMatrix type="luminanceToAlpha" result="colormatrix1"/>
+      <feFlood flood-opacity="1" flood-color="#FFF" result="flood1"/>
+      <feComposite in2="colormatrix1" operator="out" result="composite1"/>
+      <feFlood flood-opacity="1" flood-color="#000" result="flood2"/>
+      <feComposite in2="colormatrix1" result="composite2" operator="in"/>
+      <feComposite in="composite2" in2="composite1" k2="1" k3="1" operator="arithmetic" result="composite3"/>
+      <feColorMatrix in="composite3" values="2 -1 0 0 0 0 2 -1 0 0 -1 0 2 0 0 0 0 0 1 0" result="colormatrix2"/>
+      <feComposite in="colormatrix2" in2="composite3" operator="arithmetic" k2="2" result="composite4"/>
+      <feBlend in="composite4" in2="composite3" result="blend"/>
+      <feComposite in2="SourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="fbSourceGraphic" in="fbSourceGraphic"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0" in="fbSourceGraphic" result="result1"/>
+      <feColorMatrix type="hueRotate" values="0"/>
+      <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" result="result3"/>
+      <feComposite in2="result3" result="result6" operator="atop"/>
+      <feComposite in2="result6" operator="arithmetic" k2=".5" k1=".5" k3=".5" in="result6" result="result4"/>
+      <feBlend in2="fbSourceGraphic" result="result2" in="result4"/>
+      <feComposite in2="result2" operator="arithmetic" k2="1" result="result5"/>
+      <feComposite in2="fbSourceGraphic" operator="in" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix type="hueRotate" values="180" result="color1" in="fbSourceGraphic"/>
+      <feColorMatrix values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 1.24 0" result="fbSourceGraphic"/>
+      <feColorMatrix result="fbSourceGraphicAlpha" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+      <feColorMatrix values="1 0 0 0.0885417 -0 0 1 0 0.0885417 -0 0 0 1 0.0885417 -0 0 0 0 1 0" in="fbSourceGraphic"/>
+    </filter>
+  </defs>
+  <path d="M17.5 482.6c-1-2.6-6.2-2.3-6.2-2.3s-2.4-.6-2 1c.2 1.3 1.6.3 1.3 1.3-.4 1-1 .6-1.5.8-.6.2-1.4-.2-1.6.6 0 .8-1.2 1-1.2 2 0 1.3 3 3.2 4.4 4.6 1.3 1.4 5 1.7 6.2 1 1.2-.5 1.6-6.5.7-9z" transform="translate(-2.075 -3916.72) scale(8.8377)" fill="#ccccc2" filter="url(#a)"/>
+  <path d="M28.3 444C13 444 .6 456.3.6 471.6c0 15.3 12.4 27.7 27.7 27.7 15.3 0 27.8-12.4 27.8-27.7 0-15.3-12.4-27.8-27.7-27.8z" transform="translate(-2.075 -3916.72) scale(8.8377)" fill="#d5d6c9" filter="url(#b)"/>
+  <path d="M27.6 448.6c-12.6 0-23 10.2-23 23 0 12.5 10.4 22.7 23 22.7 12.7 0 23-10.2 23-22.8 0-12.7-10.3-23-23-23z" transform="translate(-2.075 -3916.72) scale(8.8377)" fill="#d8d8d6" filter="url(#c)"/>
+  <path d="M26.7 453.7c-9 0-16.3 7.4-16.3 16.4 0 9 7.3 16.4 16.3 16.4S43 479 43 470s-7.3-16.3-16.3-16.3z" transform="translate(-2.075 -3916.72) scale(8.8377)" fill="#ddd" filter="url(#d)"/>
+  <circle cx="25.3" cy="468.7" r="6.6" transform="translate(-2.075 -3916.72) scale(8.8377)" fill="#e2e2e2" filter="url(#e)"/>
+  <path d="M304 352s-2-7-5-8-15 1.6-18-6c-3-7.4 5-5 5-11s-7.4-14-15-17c-7.4-3-9.4-10-21-10-11.4 0-12 25-12 25s-16-2-22 4-4 20-4 20-1.4 9.6 0 16c1.6 6.6 11.6 11.6 15 13 3.6 1.6 10.6 4.6 15 7 4.6 2.6 7.6 10 13 1 5.6-9 13-8.4 20-11 7-2.4-11.4-14-2-16 9.6-2 13 5.6 23 6 10 .6 8-13 8-13z" fill="#c8c8c9" transform="matrix(1.3428 0 0 1.3428 -85.047 -81.213)" opacity=".5" filter="url(#f)"/>
+  <path d="M48.4 485.2l1 4.7c1-1.6 2.2-3 3.2-4.8h-4.2z" transform="translate(-2.075 -3916.72) scale(8.8377)" fill="#d5d6c9" filter="url(#g)"/>
+  <path d="M233 184c-13-16-89-9-95-19s1.7-7.6-10.6-13.3C115 146 108 141 108 141l-10.8 4.2c-7 10-12.7 20.8-17.5 32.2 0 0 9.4 0 12.4 6.3 3 6.4 14.4 47.4 22.7 53.4 8.4 6 20.4-8 32.4-10s30-6 47-10 52-17 39-33z" transform="matrix(1.3428 0 0 1.3428 -85.047 -81.213)" opacity=".5" fill="#c8c8c9" filter="url(#h)"/>
+  <path d="M282.4 105.7c-6.3-8.6-3.2-29-10-30.6-6.8-1.4-18.8 4.7-29.3 3.4-10.4-1.3-37.3-4-37.3-4l-11-1C189.6 75 184.3 77 179 79c0 0 4.4 32.7 6.7 37.4 2.4 4.7 22 4 22 4s26.4-3.8 31.4-5.3c5-1.4 33.7 18 43.4 12.7 9.7-5 6.3-13.3 0-22z" transform="matrix(1.3428 0 0 1.3428 -85.047 -81.213)" opacity=".5" fill="#c8c8c9" filter="url(#i)"/>
+  <path d="M413.6 171s-13-13.8-25.5-12.6c-12.4 1.2-17 11-30 13.3-13 2.4-38-7.3-47.3-6-9 1.4-12.8 12.2-8 20 5 8 42 28.2 53.4 28 11.6 0 18.6-25 26-22.6 7.6 2.6 45.8 24.5 45.8 24.5-2.8-15.7-7.7-30.6-14.2-44.6z" transform="matrix(1.3428 0 0 1.3428 -85.047 -81.213)" opacity=".5" fill="#c8c8c9" filter="url(#j)"/>
+  <path d="M406 305c-6-3.4-23.4-4-25-10-1.4-6 19.6-5 16-12-3.4-7-17.4-4.4-27-6-9.4-1.4-16.4 2-21 5-4.4 3-26 30-25 36s13 8 14 17 10 11 13 19-.4 14 0 20c.6 6 5 13 11 14 1 .2 2 .2 3.3 0 7.4-6 14.3-13 20.6-20.2-2-12.5-11-23.7-6-30.7s14 .3 27.6 0c3.8-7 7.2-14 10-21.2-1.5-10.2-5.5-7.2-11.5-10.7z" transform="matrix(1.3428 0 0 1.3428 -85.047 -81.213)" opacity=".5" fill="#c8c8c9" filter="url(#k)"/>
+  <circle cx="36.1" cy="487.3" r="5.6" transform="translate(-2.075 -3916.72) scale(8.8377)" fill="#c1c1c1" filter="url(#l)"/>
+  <g transform="matrix(1.3428 0 0 1.3428 -85.047 -81.213)" filter="url(#m)" fill="#d3d3d3">
+    <circle cx="299.6" cy="349.6" r="32.6"/>
+    <path d="M321.6 368c-2.4-2.6-6.2-2.7-8.5-.4-2.2 2.3-2 6 .4 8.5s7 1 8.5.4c1-.5 2-6-.4-8.5z"/>
+    <ellipse transform="rotate(-135 311.243 374.614)" cx="311.2" cy="374.6" rx="6.2" ry="5.8"/>
+    <path d="M309.3 372.6c-2.5-2.4-6.3-2.5-8.6-.3-2.2 2.3-2 6 .3 8.6 2.4 2.3 6 4 8.5 0 1.8-2.6 2.2-6-.2-8.4z"/>
+    <path d="M301 373c-2.3-2.6-6-2.7-8.4-.4-2.3 2.3-2 6 .3 8.5s3.6 5.4 8.4.4c2.2-2.4 2-6-.3-8.5z"/>
+    <path d="M288 374.2c-3.4-1.2-6.8-.7-7.4 1.2 0 0 2.3 5.2 3.3 5.7 3.2 1.8 8.7.7 9.3-1.2.7-1.8-1.6-4.3-5.2-5.6z"/>
+    <path d="M281.4 369.5c-3.5-2.7-7.3-3.6-8.5-2 0 0 1 6 2 7 3.2 3 9.4 4.2 10.6 2.6 1.2-1.5-.7-5-4.2-7.5z"/>
+    <path d="M274.5 361.8c-1.2-3.5-3.7-6-5.6-5.2-2 .6-1.8 6.4-1.3 7.5.4 1 3.7 6 5.6 5.3 1.8-.6 2.4-4 1.2-7.5zM273.2 332c-2-.6-5 4.3-5.5 5.4-.7 2-.6 7 1.3 7.5 2 .5 4.3-2 5.5-5.4 1-3.6.5-7-1.3-7.6z"/>
+    <ellipse transform="rotate(-162.1 273.96 334.084)" cx="274" cy="334.1" rx="3.6" ry="6.8"/>
+    <path d="M270.4 342.8c-2 0-4 2.8-4 6.6 0 2 1.2 6.8 3 7 2 0 4-3 4-6.6.3-3.7-1-6.8-3-7zM330.4 352.4c-2-.6-4.3 1.8-5.5 5.3-1.2 3.6-.6 7 1.3 7.6 1.8.6 3.4-2.2 5.4-5.4.8-1.2.6-7-1.3-7.6z"/>
+    <ellipse transform="rotate(-162.1 324.827 365.447)" cx="324.8" cy="365.4" rx="3.6" ry="6.8"/>
+    <path d="M333 348.4c-.5-3.7-3-6.3-5-6-1.8.5-2.8 3.8-2 7.4.7 3.7 3 6.3 5 6 1.8-.5 2-6 2-7.4zM326 328.6c0-1-3.2-3-4-3-2 0-3 3.7-2 7.3.7 3.6 3 6.2 4.8 5.8 2-.4 2-6.3 1.3-10.2z"/>
+    <path d="M332 339.8c-.3-1.3-3-6.2-5-5.8-1.8.4-2.7 3.7-2 7.3.8 3.7 3 6.3 5 6 1.8-.5 2.3-6.2 2-7.5zM317.3 320.5c-3.5-1.3-9-1.8-9.7 0-.7 2 1.7 4.5 5.2 5.7 3.5 1.2 7 .7 7.5-1 .7-2-3-4.7-3-4.7z"/>
+    <path d="M307 316s-6-1-6.5 1c-.7 1.8 1.4 5.2 5 6.4 3.4 1.3 6.8.8 7.5-1 .6-2-2.5-5-6-6.3zM288.6 321.3c-1-1.7-6.3-.5-7.6 0-3.4 1.6-5.2 4.6-4.3 6.4 1 1.7 4.4 1.7 7.6 0 3.3-1.8 5.3-4.6 4.3-6.4z"/>
+    <path d="M299.3 318.3c-.5-2-6-1.8-7.4-1.6-3 .6-6.2 3.4-5.7 5.3.6 2 4 2.6 7.5 1.6 3.6-1 6-3.4 5.5-5.3z"/>
+  </g>
+  <circle cx="36.1" cy="487.1" r="4.7" transform="translate(-2.075 -3916.72) scale(8.8377)" fill="#ccccc2" filter="url(#n)"/>
+  <path d="M36 482.4c-2.4 0-4.5 2-4.5 4.7 0 .3 1-3.7 4.5-3.7 3.7 0 4.8 4 4.8 3.8 0-2.5-2-4.6-4.7-4.6z" transform="translate(-2.075 -3916.72) scale(8.8377)" fill="#bfbfba" filter="url(#o)"/>
+  <circle cx="27.5" cy="472.8" r="3.8" transform="translate(-2.075 -3916.72) scale(8.8377)" fill="#c1c1c1" filter="url(#p)"/>
+  <g transform="matrix(1.3428 0 0 1.3428 -85.047 -81.213)" filter="url(#q)" fill="#d3d3d3">
+    <circle cx="242.6" cy="254.8" r="22.5"/>
+    <path d="M257.7 267.4c-1.6-1.7-4.3-1.7-5.8-.2-1.7 1.6-1.6 4.2 0 6 1.7 1.6 4.8.6 6 0 .6-.2 1.4-4-.3-5.8z"/>
+    <ellipse transform="rotate(-135 250.577 272.087)" cx="250.6" cy="272.1" rx="4.3" ry="4"/>
+    <path d="M249.2 270.7c-1.7-1.7-4.3-1.8-6-.2-1.4 1.6-1.4 4.2.3 6 1.7 1.6 4 2.8 6 0 1-1.8 1.4-4-.3-5.8z"/>
+    <path d="M243.6 271c-1.7-1.8-4.3-2-6-.3-1.5 1.6-1.4 4.2.3 6 1.6 1.5 2.5 3.5 5.8 0 1.5-1.6 1.5-4.2-.2-5.8z"/>
+    <path d="M234.6 271.8c-2.4-.8-4.7-.5-5.2.8 0 0 1.6 3.6 2.3 4 2.3 1 6 .3 6.5-1 .5-1.2-1-3-3.6-3.8z"/>
+    <path d="M230 268.5c-2.5-1.8-5-2.4-6-1.3 0 0 1 4.2 1.5 4.8 2.2 2 6.5 3 7.4 1.8.7-1-.6-3.5-3-5.3z"/>
+    <path d="M225.2 263.2c-1-2.4-2.6-4-4-3.6-1 .5-1 4.4-.7 5.2.3.7 2.6 4 4 3.6 1-.4 1.5-2.7.7-5.2zM224.3 242.7c-1.3-.4-3.5 3-3.8 3.7-.5 1.3-.4 4.7 1 5 1.2.6 3-1 3.7-3.5.8-2.6.4-5-1-5.3z"/>
+    <ellipse transform="rotate(-162.1 224.83 244.09)" cx="224.8" cy="244.1" rx="2.5" ry="4.7"/>
+    <path d="M222.4 250c-1.4 0-3 2-2.8 4.6 0 1.4.8 4.8 2.2 4.8 1.3 0 2.6-2 2.7-4.5.2-2.6-.8-4.8-2-5zM263.8 256.7c-1.3-.4-3 1.3-3.8 3.7-.8 2.5-.3 4.8 1 5.2 1.2.4 2.3-1.5 3.7-3.7.5-1 .4-4.8-1-5.3z"/>
+    <ellipse transform="rotate(-162.1 259.978 265.77)" cx="260" cy="265.8" rx="2.5" ry="4.7"/>
+    <path d="M265.6 254c-.4-2.6-2-4.4-3.4-4-1.3.2-2 2.4-1.5 5 .6 2.5 2 4.3 3.4 4 1.4-.3 1.7-4 1.6-5zM261 240.3c-.3-.8-2.4-2-3-2-1.3 0-2 2.5-1.4 5 .5 2.5 2 4.3 3.3 4 1.3-.2 1.3-4.3 1-7z"/>
+    <path d="M265 248c-.3-1-2-4.3-3.4-4-1.4.3-2 2.6-1.5 5 .6 2.6 2 4.4 3.5 4 1.3 0 1.6-4 1.4-5zM254.8 234.7c-2.5-1-6.3-1.2-6.7 0-.4 1.4 1.2 3 3.6 4 2.5.8 4.8.4 5.3-.8.3-1.4-2.2-3.3-2.2-3.3z"/>
+    <path d="M247.6 231.7s-4-.7-4.5.6c-.3 1.2 1 3.6 3.6 4.4 2.4 1 4.7.5 5.2-.7.4-1.3-1.7-3.5-4.2-4.3zM235 235.3c-.7-1.2-4.4-.4-5.3 0-2.4 1-3.6 3.2-3 4.4.7 1.2 3 1.2 5.3 0 2.3-1.3 3.6-3.2 3-4.4z"/>
+    <path d="M242.4 233.2c-.4-1.3-4.2-1.3-5.2-1-2 .3-4.2 2.2-3.8 3.6.4 1.3 2.7 1.8 5 1 2.6-.6 4.3-2.3 4-3.6z"/>
+  </g>
+  <circle cx="27.5" cy="472.7" r="3.2" transform="translate(-2.075 -3916.72) scale(8.8377)" fill="#e2e2e2" filter="url(#r)"/>
+  <path d="M27.5 469.5c-1.8 0-3.3 1.4-3.3 3.2 0 0 .7-2.6 3.2-2.6s3.3 2.8 3.3 2.7c0-1.8-1.4-3.2-3.2-3.2z" transform="translate(-2.075 -3916.72) scale(8.8377)" fill="#bfbfba" filter="url(#s)"/>
+  <path d="M54.4 468.8c-.4-2-2-3.5-3.5-3-1.6.2-2.5 2.2-2 4.2.4 2 2 3.5 3.4 3.2 1.5-.4 2.4-2.3 2-4.4z" transform="translate(-2.075 -3916.72) scale(8.8377)" fill="#c1c1c1" filter="url(#t)"/>
+  <g transform="matrix(1.3428 0 0 1.3428 -85.047 -81.213)" filter="url(#u)" fill="#d3d3d3">
+    <path d="M417.8 228.8c-2.4-12.2-11.5-20.4-20.3-18.4-9 2-14 13.5-11.7 25.7 2.4 12.2 11.5 20.5 20.3 18.4 9-2 14.2-13.5 11.8-25.6z"/>
+    <path d="M415 242.3c-1.5-1.4-3.4-1-4.2.7-.8 1.8-.2 4.4 1.3 5.8 1.6 1.3 3.6 0 4.3-.8.4-.4.3-4.4-1.2-5.7z"/>
+    <path d="M412.3 244.7c-1.5-1.3-3.4-1-4.2.8-.7 1.8 0 4.4 1.4 5.7 1.5 1.4 3.4 1 4.2-.7.8-1.8.2-4.4-1.3-5.8z"/>
+    <path d="M409.6 247c-1.5-1.5-3.4-1.2-4.2.6-.8 1.8-.3 4.4 1.2 5.8 1.6 1.3 3.5 2.2 4.3-.8.4-2 0-4.4-1.4-5.7z"/>
+    <path d="M405.6 248c-1.5-1.4-3.4-1-4.2.7-.8 1.8-.2 4.4 1.3 5.7 1.5 1.4 2.5 3.2 4.2-.7.7-2 0-4.4-1.4-5.8z"/>
+    <path d="M399.4 250.3c-2-.4-3.5.3-3.5 1.6 0 0 1.7 3.2 2.3 3.5 1.8.7 4.4-.7 4.4-2s-1.4-2.7-3.3-3.2z"/>
+    <path d="M395.5 248c-2-1.5-4-1.7-4.5-.5 0 0 1.4 4 2 4.5 2 1.7 5.2 1.7 5.6.6.3-1.2-1-3.3-3-4.7z"/>
+    <path d="M391 243.5c-1-2.3-2.6-3.6-3.4-3-.8.7 0 4.6.4 5.3.4.6 2.6 3.5 3.5 3 .8-.7.6-3-.5-5.3zM386.4 223.5c-1-.2-2 3.4-2 4.2 0 1.4.7 4.7 1.7 5 1 0 2-1.7 2-4.3.2-2.5-.6-4.7-1.6-5z"/>
+    <path d="M387.3 220.2c-1-.2-2 1.7-2 4.2 0 2.6.6 4.8 1.6 5 1 .2 1.8-1.7 2-4.2 0-2.6-.7-4.8-1.7-5zM389 235.5c-.4-2.6-1.5-4.5-2.5-4.4-1 .3-1.6 2.5-1 5 .2 1.3 1.4 4.5 2.4 4.3 1 0 1.4-2.3 1-4.8zM417.3 231c-1-.3-2 1.5-2 4 0 2.6.7 4.8 1.7 5 1 .2 1.4-2 2-4.2.2-1-.7-4.7-1.7-5z"/>
+    <path d="M416.5 235.7c-1-.2-2 1.7-2 4.2s.6 4.7 1.6 5c1 0 2-1.8 2-4.3.2-2.6-.5-4.8-1.5-5zM418 227.8c-.7-2.4-2.3-4-3.2-3.4-1 .5-1 2.8 0 5.2 1 2.4 2.3 4 3.2 3.4 1-.5.3-4.2 0-5.2zM412 215.3c-.2-.8-2-1.7-2.4-1.6-1 .2-1 2.8 0 5.2.8 2.2 2.2 3.8 3 3.3 1-.5.3-4.5-.6-7z"/>
+    <path d="M416.4 222.2c-.3-1-2.3-4-3.2-3.4-.8.5-1 2.8 0 5.2 1 2.3 2.3 4 3.2 3.4 1-.5.3-4.4 0-5.2zM406.6 210.7c-2-.4-4.7 0-4.7 1.2-.2 1.3 1.3 2.7 3.2 3 2 .6 3.4-.2 3.5-1.5 0-1.3-2-2.8-2-2.8z"/>
+    <path d="M401 209s-3 0-3 1.3c-.2 1.3 1.3 3.4 3.2 3.8 2 .5 3.4-.2 3.5-1.5 0-1.3-2-3-3.7-3.5zM392.6 214.5c-.7-1-3.2.4-3.7 1-1.6 1.3-2 3.6-1.4 4.7.7 1 2.4.6 3.8-1 1.3-1.5 2-3.6 1.2-4.7z"/>
+    <path d="M397.5 211.3c-.5-1.2-3.2-.6-4-.2-1.2.8-2.4 3-2 4.3.6 1.2 2.3 1.3 4 .2 1.6-1 2.5-3 2-4.2z"/>
+  </g>
+  <path d="M54 468.8c-.4-1.8-1.7-3-3-2.7-1.2.4-2 2-1.6 3.8.3 1.8 1.6 3 3 2.7 1.2-.3 2-2 1.6-3.7z" transform="translate(-2.075 -3916.72) scale(8.8377)" fill="#d5d6c9" filter="url(#v)"/>
+  <path d="M51 466c-1.2.4-2 2-1.6 3.8 0 0 0-2.6 1.7-3 2-.4 3 2 3 2-.4-1.8-1.7-3-3-2.7z" transform="translate(-2.075 -3916.72) scale(8.8377)" fill="#bfbfba" filter="url(#w)"/>
+  <circle cx="33" cy="456.6" r="6.7" transform="translate(-2.075 -3916.72) scale(8.8377)" fill="#c1c1c1" filter="url(#x)"/>
+  <circle cx="33" cy="456.4" r="6" transform="translate(-2.075 -3916.72) scale(8.8377)" fill="#d3d3d3" filter="url(#y)"/>
+  <path d="M33 450.7c-3 0-5.6 2.6-5.6 5.7 0 .2 1-4.6 5.5-4.6 4.3 0 5.7 4.8 5.7 4.6 0-3-2.6-5.7-5.7-5.7z" transform="translate(-2.075 -3916.72) scale(8.8377)" fill="#bfbfba" filter="url(#z)"/>
+  <ellipse cx="9.8" cy="477.7" rx="3.6" ry="4.4" transform="translate(-2.075 -3916.72) scale(8.8377)" fill="#c1c1c1" filter="url(#A)"/>
+  <g transform="matrix(1.3428 0 0 1.3428 -85.047 -81.213)" filter="url(#B)" fill="#d3d3d3">
+    <ellipse cx="126.5" cy="286.6" rx="21.3" ry="26.1"/>
+    <path d="M141 301.2c-1.7-2-4.2-2-5.7-.2s-1.4 5 .2 6.8c1.6 2 4.5.8 5.5.2.7-.4 1.4-5 0-6.8z"/>
+    <path d="M136.8 303.3c-1.6-2-4-2-5.6-.2-1.5 2-1.4 5 .2 7 1.6 1.8 4 2 5.5 0 1.4-1.7 1.4-4.8-.2-6.7z"/>
+    <path d="M132.8 305c-1.6-2-4-2-5.6-.2-1.5 1.8-1.4 5 .2 6.8 1.6 2 3.8 3.4 5.5.2 1-2 1.4-5-.2-6.8z"/>
+    <path d="M127.5 305.2c-1.6-2-4-2-5.6-.2-1.6 1.8-1.5 5 0 6.8 1.7 2 2.5 4.2 5.6.2 1.5-2 1.4-5 0-6.8z"/>
+    <path d="M119 306.3c-2.3-1-4.5-.6-5 1 0 0 1.5 4 2.2 4.5 2.2 1.4 5.7.5 6.2-1 .4-1.5-1-3.5-3.4-4.5z"/>
+    <path d="M114.6 302.5c-2.3-2-4.8-2.8-5.6-1.6 0 0 .8 4.8 1.4 5.6 2 2.4 6 3.3 7 2 .7-1.3-.5-4-2.8-6z"/>
+    <path d="M110 296.4c-.7-2.8-2.4-4.7-3.6-4.2-1.2.5-1 5-.8 6 .3.8 2.5 4.7 3.7 4.2 1.2-.5 1.5-3.2.7-6zM109.2 272.6c-1.2-.5-3.3 3.4-3.6 4.2-.4 1.6-.3 5.6 1 6 1 .5 2.7-1.4 3.5-4.2.8-3 .4-5.6-.8-6z"/>
+    <path d="M111 269c-1.2-.4-2.7 1.5-3.5 4.3-.7 3-.4 5.6 1 6 1 .5 2.7-1.4 3.4-4.2.7-2.8.3-5.4-1-6zM107.4 281.2c-1.3 0-2.7 2.2-2.6 5.2 0 1.6.8 5.5 2 5.6 1.3 0 2.5-2.2 2.6-5.2.2-3-.7-5.5-2-5.6zM146.6 289c-1.2-.6-2.8 1.3-3.6 4-.7 3-.3 5.7 1 6 1 .6 2-1.6 3.5-4 .4-1 .3-5.7-1-6z"/>
+    <path d="M144.3 294.2c-1.2-.5-2.8 1.4-3.6 4.2-.7 3-.3 5.5 1 6 1 .5 2.7-1.4 3.5-4.2.7-3 .3-5.6-1-6zM148.3 285.6c-.4-3-2-5-3.2-4.7-1.2.2-1.8 3-1.3 5.8.5 3 2 5 3.2 4.7 1-.3 1.4-4.7 1.3-6zM143.8 269.8c0-1-2.2-2.4-2.7-2.4-1.2 0-1.8 3-1.3 6 .5 2.8 2 5 3.2 4.6 1.2-.3 1.2-5 .8-8.2z"/>
+    <path d="M147.6 278.8c-.2-1-2-5-3-4.7-1.4.4-2 3-1.5 6 .6 3 2 5 3.3 4.7 1.2-.3 1.5-5 1.3-6zM138 263.3c-2.3-1-6-1.4-6.3 0-.4 1.6 1 3.6 3.4 4.6 2.4 1 4.6.5 5-1 .4-1.5-2-3.7-2-3.7z"/>
+    <path d="M131.3 259.8s-3.8-.8-4.3.7c-.4 1.5 1 4.2 3.3 5.2s4.5.6 5-1c.3-1.4-1.7-4-4-5zM119.3 264c-.6-1.4-4-.4-5 0-2.2 1.2-3.4 3.7-2.8 5 .6 1.5 3 1.5 5 0 2.2-1.3 3.4-3.6 2.8-5z"/>
+    <path d="M126.3 261.6c-.4-1.5-4-1.5-5-1.3-1.7.5-3.8 2.7-3.5 4.2.4 1.6 2.5 2 5 1.3 2.2-.8 3.8-2.7 3.5-4.2z"/>
+  </g>
+  <ellipse cx="9.8" cy="477.5" rx="3.1" ry="3.7" transform="translate(-2.075 -3916.72) scale(8.8377)" fill="#d8d8d6" filter="url(#C)"/>
+  <path d="M9.8 473.8c-1.7 0-3 1.7-3 3.7 0 .2.6-3 3-3 2.3 0 3 3.2 3 3 0-2-1.3-3.7-3-3.7z" transform="translate(-2.075 -3916.72) scale(8.8377)" fill="#bfbfba" filter="url(#D)"/>
+  <ellipse transform="rotate(-174.452 -.97 1.455) scale(8.8377)" cx="-12.6" cy="-16.3" rx="4.2" ry="4.9" fill="#c1c1c1" filter="url(#E)"/>
+  <g transform="matrix(1.3428 0 0 1.3428 -85.047 -81.213)" filter="url(#F)" fill="#d3d3d3">
+    <ellipse transform="rotate(-174.443 134.02 176.402)" cx="134" cy="176.4" rx="24.9" ry="28.9"/>
+    <path d="M149.2 194c-1.7-2.2-4.5-2.6-6.5-.7-2 1.8-2 5.2-.5 7.5 1.6 2.3 5.2 1.4 6.4 1 .8-.5 2.2-5.3.6-7.7z"/>
+    <path d="M144.2 196c-1.6-2.3-4.5-2.7-6.4-1-2 2-2.2 5.4-.6 7.7 1.7 2.3 4.5 2.7 6.5.8 2-1.8 2-5.2.5-7.5z"/>
+    <path d="M139.4 197.4c-1.7-2.3-4.6-2.7-6.5-.8-2 1.8-2.2 5.2-.6 7.5 1.6 2.4 4 4.3 6.4 1 1.6-2.3 2.2-5.3.6-7.6z"/>
+    <path d="M133.2 197c-1.7-2.3-4.6-2.7-6.5-.8-2 1.8-2 5.2-.5 7.5 1.6 2.3 2.4 5 6.4 1 2-2 2.2-5.3.6-7.7z"/>
+    <path d="M123.2 197.3c-2.6-1.4-5.2-1.2-5.8.4 0 0 1.2 4.8 2 5.4 2.4 1.8 6.6 1.2 7.2-.4.7-1.6-.8-4-3.4-5.3z"/>
+    <path d="M118.5 192.6c-2.5-2.6-5.3-3.7-6.3-2.4 0 0 .3 5.5 1 6.4 2 3 6.8 4.3 7.8 3 1-1.3 0-4.4-2.5-7z"/>
+    <path d="M114 185.3c-.8-3.2-2.4-5.4-4-5-1.4.4-1.7 5.5-1.5 6.5.3 1 2.3 5.5 3.8 5 1.5-.3 2.2-3.3 1.6-6.5zM115.4 159c-1.3-.8-4.2 3.3-4.6 4.2-.7 1.7-1 6 .4 6.8 1.3.6 3.4-1.3 4.6-4.3 1.2-3 1-6-.4-6.8z"/>
+    <path d="M118 155.3c-1.4-.7-3.4 1.2-4.6 4.3-1.2 3-1 6 .3 6.7 1.4.7 3.5-1.2 4.6-4.3 1.2-3 1-6-.3-6.7zM112.4 168.3c-1.5-.3-3.4 2-3.6 5.4 0 1.7.3 6.2 1.8 6.4 1.5.4 3-2 3.6-5.4.5-3.2-.3-6-1.8-6.3zM157.2 181c-1.4-.5-3.5 1.4-4.6 4.4-1.2 3-1 6 .3 6.8 1.3.7 2.7-1.7 4.5-4.3.7-1 1-6.2-.3-7z"/>
+    <path d="M154 186.7c-1.4-.6-3.5 1.3-4.7 4.3-1 3-1 6 .4 6.8 1.4.6 3.4-1.3 4.6-4.3 1.2-3 1-6-.4-6.8zM156.2 172.2c-1.5.2-2.4 3-2.2 6.3.3 3.3 1.7 5.8 3.2 5.6 1.5 0 2.3-5 2.2-6.3 0-3.3-1.7-5.7-3.2-5.5zM156 159.8c0-1-2.3-3-3-3-1.4-.2-2.4 3-2 6.4 0 3.2 1.6 5.7 3 5.5 1.6-.2 2-5.5 2-9z"/>
+    <path d="M159.5 170.2c-.2-1.3-1.7-5.8-3.2-5.6-1.5.2-2.5 3-2.3 6.3.3 3.2 1.7 5.7 3.2 5.5 1.5-.2 2.4-5.2 2.3-6.3zM150 152c-2.6-1.4-6.8-2.2-7.4-.6-.7 1.6 1 4 3.4 5.3 2.6 1.3 5.2 1 6-.5.5-1.5-2-4.3-2-4.3z"/>
+    <path d="M142.5 147.4s-4.4-1.4-5 .2c-.7 1.6.6 4.8 3.2 6 2.5 1.5 5 1.3 5.8-.3.6-1.6-1.5-4.6-4-6zM128 150.6c-.5-1.6-4.7-1-5.7-.5-2.7 1-4.4 3.7-3.8 5.3.6 1.6 3 2 5.8.6 2.6-1.4 4.3-3.8 3.8-5.4z"/>
+    <path d="M131 146.8c-2.2.3-5 2.5-4.7 4.2.2 1.7 2.7 2.6 5.5 2 2.8-.6 5-2.5 4.7-4.3-.3-1.7-4.5-2-5.6-2z"/>
+  </g>
+  <ellipse transform="rotate(-174.452 -.97 1.455) scale(8.8377)" cx="-12.6" cy="-16.2" rx="3.6" ry="4.2" fill="#ccccc2" filter="url(#G)"/>
+  <path d="M11.4 456.7c-2-.2-3.8 1.5-4 3.8 0 0 1-3.3 3.8-3 2.8.2 3.3 3.8 3.3 3.6.3-2-1.2-4-3-4.3z" transform="translate(-2.075 -3916.72) scale(8.8377)" fill="#bfbfba" filter="url(#H)"/>
+</svg>

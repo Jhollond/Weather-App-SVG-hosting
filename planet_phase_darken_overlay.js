@@ -59,7 +59,6 @@ var drawPlanetPhase = (function(){
             'backgroundColor': outer.colour,
             'borderRadius': (outer.diameter/2) + 'px',
             'overflow': 'hidden',
-            'mix-blend-mode': 'darken'
         });
 
         blurredDiameter = inner.diameter - blurSize;
@@ -75,7 +74,6 @@ var drawPlanetPhase = (function(){
             'top': ((outer.diameter-blurredDiameter)/2) + 'px',
             'boxShadow': '0px 0px ' + blurSize + 'px ' + blurSize + 'px ' + inner.colour,
             'opacity': inner.opacity,
-            'mix-blend-mode': 'darken'
         });
     }
     function makeDiv(container){

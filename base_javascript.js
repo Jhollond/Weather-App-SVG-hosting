@@ -332,7 +332,7 @@ $(document)
     $("#test-button")
       .on("click", function () {
         weathercompany_conditions(25.0329694,121.5654177)
-    })
+    });
     $("#input-address").bind("enterKey",function() {
       weather_geocode_useraddress();
     });

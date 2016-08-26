@@ -9,9 +9,10 @@ function smallest_time_diff(time1arr, time2arr) {
   }
   var hours1 = (time1[0], 10),
       hours2 = (time2[0], 10),
-      mins1 = (time1[1], 10),
-      mins2 = (time2[1], 10);
-  var hours = hours2 - hours1, mins = 0;
+      mins1  = (time1[1], 10),
+      mins2  = (time2[1], 10);
+  var hours  = hours2 - hours1, mins = 0;
+
   if (hours < 0) hours = 24 + hours;
   if (mins2 >= mins1) {
     mins = mins2 - mins1;
